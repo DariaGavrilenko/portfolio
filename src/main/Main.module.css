@@ -1,0 +1,18 @@
+.MainContainer{
+    height: 100vh;
+    background-color: rgb(168, 114, 219);
+}
+.container{
+    justify-content: space-between;
+align-items: center;
+
+}
+.photoContainer{
+    width: 300px;
+    height: 400px;
+    background-color: bisque;
+}
+.textContainer{
+width: 300px;
+background-color: beige;
+}

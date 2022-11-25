@@ -1,0 +1,17 @@
+.contactsContainer{
+    background-color: rgb(200, 160, 220);
+}
+.container{
+    min-width: 300px;
+    min-height: 500px;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+form{
+    width: 300px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}

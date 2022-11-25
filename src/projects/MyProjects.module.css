@@ -1,0 +1,11 @@
+.myProjectsContainer{
+    background-color: rgb(99, 174, 99);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    min-height: 500px;
+    justify-content: space-around;
+}
