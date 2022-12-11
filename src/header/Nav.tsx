@@ -6,7 +6,7 @@ export const Nav = () => {
             <span>Main</span>
             <span>Skils</span>
             <span>Works</span>
-            <span>Contscts</span>
+            <span>Contacts</span>
         </div>
     )
 }

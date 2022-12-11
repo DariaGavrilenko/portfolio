@@ -1,18 +1,44 @@
-.MainContainer{
+.MainContainer {
     height: 100vh;
-    background-color: rgb(168, 114, 219);
+    background-color: #424632;
 }
-.container{
+
+.container {
     justify-content: space-between;
-align-items: center;
+    align-items: center;
 
 }
-.photoContainer{
-    width: 300px;
+
+.photoContainer {
+    width: 270px;
     height: 400px;
-    background-color: bisque;
+    background-color: #EAE6CA;
+    transform: rotate(-20deg);
+
 }
-.textContainer{
-width: 300px;
-background-color: beige;
+
+.frame {
+    width: 284px;
+    height: 420px;
+    border: 8px solid #999950;
+    /* border: 8px solid #a5c32e;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer {
+    width: 300px;
+    color: #EAE6CA;
+    border: 2px solid #999950;
+    padding: 10px;
+}
+
+.photo {
+    width: 270px;
+    height: 400px;
+    background-image: url('me.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotate(20deg);
 }

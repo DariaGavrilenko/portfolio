@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import { Contacts } from './contacts/Contacts';
 import { Footer } from './footer/Footer';
