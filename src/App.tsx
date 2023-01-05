@@ -1,11 +1,13 @@
+import React from 'react';
 import './App.css';
-import { Contacts } from './contacts/Contacts';
-import { Footer } from './footer/Footer';
-import { Header } from './header/Header';
-import { Main } from './main/Main';
-import { MyProjects } from './projects/MyProjects';
-import { RemoteWork } from './remoteWork/RemoteWork';
-import { Skills } from './skills/Skills';
+
+import { Main } from './components/Main';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { Skills } from './components/Skills';
+import { Contacts } from './components/Contacts';
+import { RemoteWork } from './components/RemoteWork';
+import { MyProjects } from './components/MyProjects';
 
 function App() {
   return (
@@ -14,9 +16,9 @@ function App() {
       <Main />
       <Skills />
       <MyProjects />
-      <RemoteWork/>
-      <Contacts/>
-      <Footer/>
+      <RemoteWork />
+      <Contacts />
+      <Footer />
     </div>
   );
 }
