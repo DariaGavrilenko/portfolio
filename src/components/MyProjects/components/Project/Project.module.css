@@ -1,0 +1,69 @@
+.imgContainer {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #999950;
+  border-radius: 8px 8px 0 0;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.imgContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #373a2db3;
+}
+
+.discription {
+  width: 300px;
+  min-height: 200px;
+  background-color: hsl(60, 31%, 46%, 20%);
+  border: 2px solid #999950;
+  border-top: none;
+  border-radius: 0 0px 8px 8px;
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.discriptions {
+  font-family: 'Beer money';
+  font-size: large;
+  font-weight: bold;
+  color:#eae6ca;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.projectName {
+  font-family: 'Beer money';
+  font-size: large;
+  font-weight: bold;
+  color:#eae6ca;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.imgContainer button {
+  width: 100px;
+  height: 30px;
+  border: 2px solid #424632;
+  border-radius: 8px;
+  background-color: #999950;
+  color: #eae6ca;
+  font-family: 'Beer money';
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+}

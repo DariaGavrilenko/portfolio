@@ -1,0 +1,10 @@
+.NavContainer {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  color: #eae6ca;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
