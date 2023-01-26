@@ -1,5 +1,6 @@
 .footerContainer {
   background-color: #424632;
+  padding-top: 20px;
 }
 .container {
   min-width: 300px;
@@ -29,4 +30,8 @@
 }
 .container h2{
   margin: 0;
+}
+.socialIcon img {
+  width: 48px;
+  height: 48px;
 }

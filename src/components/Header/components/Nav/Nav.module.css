@@ -8,3 +8,14 @@
   letter-spacing: 1px;
   line-height: 35px;
 }
+.link{
+  color: #eae6ca;
+  text-decoration: none;
+}
+.link:visited{
+  color: #eae6ca;
+  text-decoration: none;
+}
+.link:hover{
+  color: #999950;;
+}

@@ -16,12 +16,18 @@ const MyProjects = () => {
     backgroundImage: `url(https://www.shutterstock.com/image-vector/todo-list-board-vector-illustration-260nw-2038332404.jpg)`,
   }
 
+  const socialDiscription = `Educational project written in react and redax using Ts. 
+  Pages of login, profile and subscribers were developed.`
+ 
+  const todoDiscription = `Educational project written in react and redax using Ts.
+   Logization pages were developed (formic was used), CRUD operations were organized for todolists and tasks.`
+
   return (
-    <div className={style.myProjectsContainer}>
+    <div className={style.myProjectsContainer} id='projects'>
   <Title titleText='My projects'/>
       <div className={`${styleContainer.container} ${style.container}`}>
-        <Project projectName="Social networks" discriptions="ssssss" img={socialNetwork}/>
-        <Project projectName="Todolist" discriptions="ssssss" img={todo}/>
+        <Project projectName="Social networks" discriptions={socialDiscription} img={socialNetwork} link={"https://dariagavrilenko.github.io/samurai-way-main/"}/>
+        <Project projectName="Todolist" discriptions={todoDiscription} img={todo} link={''}/>
       </div>
     </div>
   );

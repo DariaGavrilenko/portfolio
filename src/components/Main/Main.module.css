@@ -1,6 +1,7 @@
 .MainContainer {
   height: 100vh;
   background-color: #424632;
+  padding-top: 40px;
 }
 
 .container {

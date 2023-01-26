@@ -14,4 +14,6 @@ type SkillPropsType = {
     </div>
   );
 };
+
+
 export default Skill

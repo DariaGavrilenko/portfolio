@@ -21,3 +21,16 @@
   font-size: large;
   font-weight: bold;
 }
+
+button{
+    border-color: #424632;
+    color: #eae6ca;
+    box-shadow: 0 0 40px 40px #999950 inset, 0 0 0 0 #999950;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+
+button:hover {
+  box-shadow: 0 0 10px 0 #999950 inset, 0 0 10px 4px #999950;
+}
