@@ -27,7 +27,7 @@ const MyProjects = () => {
   <Title titleText='My projects'/>
       <div className={`${styleContainer.container} ${style.container}`}>
         <Project projectName="Social networks" discriptions={socialDiscription} img={socialNetwork} link={"https://dariagavrilenko.github.io/samurai-way-main/"}/>
-        <Project projectName="Todolist" discriptions={todoDiscription} img={todo} link={''}/>
+        <Project projectName="Todolist" discriptions={todoDiscription} img={todo} link={'https://dariagavrilenko.github.io/todoList/'}/>
       </div>
     </div>
   );
