@@ -34,20 +34,23 @@
   font-family: 'Beer money';
   position: relative;
 }
-.textContainer::after{
+
+.textContainer::after {
   content: '';
   width: 50px;
   height: 50px;
   border: 5px solid #eae6ca;
   position: absolute;
-top: -30px;
-right: -30px;
+  top: -30px;
+  right: -30px;
 
 }
-.textContainer span{
+
+.textContainer span {
   font-size: 27px;
 }
-.textContainer h1{
+
+.textContainer h1 {
   font-size: 45px;
 }
 
@@ -60,14 +63,16 @@ right: -30px;
   transform: rotate(20deg);
 }
 
-@media screen and (max-width: 400px){
-  .photoContainer{
+@media screen and (max-width: 400px) {
+  .photoContainer {
     transform: rotate(-8deg);
-  } 
-  .photo{
+  }
+
+  .photo {
     transform: rotate(8deg);
   }
-  .textContainer::after{
+
+  .textContainer::after {
     right: -20px;
   }
 }

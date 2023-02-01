@@ -9,7 +9,6 @@ type SkillPropsType = {
   return (
     <div className={style.skillContainer}>
       <div className={style.imgContainer}>{skill}</div>
-      {/* <h3>{skill}</h3> */}
       <div>{text}</div>
     </div>
   );

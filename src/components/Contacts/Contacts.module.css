@@ -1,6 +1,7 @@
 .contactsContainer {
   background-color: #424632;;
 }
+
 .container {
   min-width: 300px;
   min-height: 500px;
@@ -10,12 +11,15 @@
   justify-content: space-between;
   align-items: center;
 }
-form {
+
+.form {
   width: 600px;
   display: flex;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
+
 .container button {
   width: 130px;
   height: 50px;
@@ -27,14 +31,15 @@ form {
   font-size: large;
   font-weight: bold;
 }
+
 input{
   border: 2px solid #999950;
   height: 30px;
   border-radius: 8px;
   margin-bottom: 10px;
   background-color: rgba(233, 229, 200, 0.743);
-
 }
+
 textarea{
   border: 2px solid #999950;
   height: 160px;
@@ -42,11 +47,15 @@ textarea{
   margin-bottom: 10px;
   background-color: rgba(233, 229, 200, 0.743);
 }
+
 textarea:focus{
-  outline: none !important;
+  outline: none !important; 
   border: 4px solid #92b700;
   background-color: rgb(233, 229, 200);
 }
+
+/* remove important if unnesessary */
+
 input:focus{
   outline: none !important;
   border: 4px solid #92b700;
@@ -54,7 +63,40 @@ input:focus{
 }
 
 @media screen and (max-width: 800px) {
-  form {
+  .form {
    width: 300px;
   }
+}
+
+.submitButton{
+  width: 100px;
+  height: 30px;
+  border: 2px solid #424632;
+  border-radius: 8px;
+  background-color: #999950;
+  color: #eae6ca;
+  font-family: 'Beer money';
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 0 0 0;
+  border-color: #424632;
+  box-shadow: 0 0 40px 40px #999950 inset, 0 0 0 0 #999950;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  position: relative;
+  margin:0 auto;
+}
+
+.submitButton:hover {
+box-shadow: 0 0 10px 0 #999950 inset, 0 0 10px 4px #999950;
+}
+
+.errorMessage{
+  color: #9d2b2b;
+  font-weight: bold;
+  font-size: medium;
+  text-align: start;
 }

@@ -1,8 +1,11 @@
 .footerContainer {
+
+}
+
+.container {
   background-color: #424632;
   padding-top: 20px;
-}
-.container {
+  width: 100%;
   min-width: 300px;
   flex-direction: column;
   align-content: center;
@@ -10,17 +13,19 @@
   text-align: center;
   min-height: 150px;
 }
-.socialIcon div {
+
+.socialIcons {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.socialIcon {
   width: 48px;
   height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.socialIcon {
-  display: flex;
-  width: 300px;
-  justify-content: space-between;
 }
 
 .container span{
@@ -28,9 +33,11 @@
   font-family: 'Beer money';
   font-size: 17px;
 }
+
 .container h2{
   margin: 0;
 }
+
 .socialIcon img {
   width: 48px;
   height: 48px;

@@ -14,7 +14,7 @@ const Main = () => {
         </div>
         <div className={style.frame}>
           <div className={style.photoContainer}>
-            <div className={style.photo}></div>
+            <div className={style.photo} />
           </div>
         </div>
       </div>
