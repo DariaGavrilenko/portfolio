@@ -17,7 +17,7 @@ export const skills = {
     },
 
     react: {
-        title: 'CSS/HTML',
+        title: 'React',
         description: `Thunk. ActionCreator. Dispatch. Flux. Hooks: useState, useEffect, useMemo, useCallback, useRef, useReducer.
     HOC. Redux. Redux Toolkit. React Router.`
     }
