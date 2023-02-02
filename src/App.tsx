@@ -12,14 +12,14 @@ import { ModalWindow } from './components/Modal';
 
 
 function App() {
-  const [showModal, setShowModal] = useState(true) 
+  const [showModal, setShowModal] = useState(false)
   return (
     <div className="App">
       <Header />
       <Main />
       <Skills />
       <MyProjects />
-      <Contacts setShowModal={setShowModal} /> 
+      <Contacts setShowModal={setShowModal} />
       <Footer />
       <ModalWindow setShowModal={setShowModal} showModal={showModal} />
     </div>
