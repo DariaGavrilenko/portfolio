@@ -89,12 +89,7 @@ const Contacts = ({ setShowModal }: ContactsPropsType) => {
   )
 }
 
-//type submit
-// try to use Formik
-
 export default Contacts;
 
 
 
-{/* <input type="text" className={style.contactEmail} placeholder='Your email' />
-<textarea className={style.contactMessage} placeholder='Leave your message'></textarea> */}

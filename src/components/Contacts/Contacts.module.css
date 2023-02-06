@@ -54,15 +54,13 @@ textarea{
 }
 
 textarea:focus{
-  outline: none !important; 
+  outline: none; 
   border: 4px solid #92b700;
   background-color: rgb(233, 229, 200);
 }
 
-/* remove important if unnesessary */
-
 input:focus{
-  outline: none !important;
+  outline: none;
   border: 4px solid #92b700;
   background-color: rgb(233, 229, 200);
 }
