@@ -1,4 +1,5 @@
 import socialNetworkImg from '../../common/img/socialNetwork.png'
+import landingImg from '../../common/img/landings.png'
 
 export const myProjects = {
     toDo: {
@@ -14,5 +15,11 @@ export const myProjects = {
         link: 'https://dariagavrilenko.github.io/samurai-way-main/',
         description: `Educational project written in react and redax using Ts. 
         Pages of login, profile and subscribers were developed.`
+    },
+    landings:{
+        projectName: 'Landings',
+        backgroundImage: landingImg,
+        link: 'https://dariagavrilenko.github.io/landings/',
+        description: `In my free time, I try to repeat the landing page from figma.`
     }
 }
