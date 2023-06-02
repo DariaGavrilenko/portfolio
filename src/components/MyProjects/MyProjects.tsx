@@ -18,6 +18,7 @@ const MyProjects = () => {
         <Project projectName={myProjects.toDo.projectName} discriptions={myProjects.toDo.description} img={myProjects.toDo.backgroundImage} link={myProjects.toDo.link} />
         <Project projectName={myProjects.notes.projectName} discriptions={myProjects.notes.description} img={myProjects.notes.backgroundImage} link={myProjects.notes.link} />
         <Project projectName={myProjects.landings.projectName} discriptions={myProjects.landings.description} img={myProjects.landings.backgroundImage} link={myProjects.landings.link} />
+        <Project projectName={myProjects.vacancy.projectName} discriptions={myProjects.vacancy.description} img={myProjects.vacancy.backgroundImage} link={myProjects.vacancy.link} />
       </div>
     </div>
   );
