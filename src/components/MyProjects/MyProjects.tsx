@@ -14,11 +14,11 @@ const MyProjects = () => {
     <div className={style.myProjectsContainer} id='projects'>
       <Title titleText='My projects' />
       <div className={`${styleContainer.container} ${style.container}`}>
-        <Project projectName={myProjects.social.projectName} discriptions={myProjects.social.description} img={myProjects.social.backgroundImage} link={myProjects.social.link} />
-        <Project projectName={myProjects.toDo.projectName} discriptions={myProjects.toDo.description} img={myProjects.toDo.backgroundImage} link={myProjects.toDo.link} />
+        <Project projectName={myProjects.vacancy.projectName} discriptions={myProjects.vacancy.description} img={myProjects.vacancy.backgroundImage} link={myProjects.vacancy.link} />
         <Project projectName={myProjects.notes.projectName} discriptions={myProjects.notes.description} img={myProjects.notes.backgroundImage} link={myProjects.notes.link} />
         <Project projectName={myProjects.landings.projectName} discriptions={myProjects.landings.description} img={myProjects.landings.backgroundImage} link={myProjects.landings.link} />
-        <Project projectName={myProjects.vacancy.projectName} discriptions={myProjects.vacancy.description} img={myProjects.vacancy.backgroundImage} link={myProjects.vacancy.link} />
+        <Project projectName={myProjects.social.projectName} discriptions={myProjects.social.description} img={myProjects.social.backgroundImage} link={myProjects.social.link} />
+        <Project projectName={myProjects.toDo.projectName} discriptions={myProjects.toDo.description} img={myProjects.toDo.backgroundImage} link={myProjects.toDo.link} />
       </div>
     </div>
   );
