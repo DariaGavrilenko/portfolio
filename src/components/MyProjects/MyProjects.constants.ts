@@ -1,0 +1,38 @@
+import socialNetworkImg from '../../common/img/socialNetwork.png'
+import landingImg from '../../common/img/landings.png'
+
+export const myProjects = {
+    toDo: {
+        projectName: 'Todolist',
+        backgroundImage: `https://www.shutterstock.com/image-vector/todo-list-board-vector-illustration-260nw-2038332404.jpg`,
+        link: 'https://dariagavrilenko.github.io/todoList/',
+        description: `Educational project written in react and redax using Ts.
+        Logization pages were developed (formic was used), CRUD operations were organized for todolists and tasks.`
+    },
+    social: {
+        projectName: 'Social network',
+        backgroundImage: socialNetworkImg,
+        link: 'https://dariagavrilenko.github.io/samurai-way-main/',
+        description: `Educational project written in react and redax using Ts. 
+        Pages of login, profile and subscribers were developed.`
+    },
+    landings:{
+        projectName: 'Landings',
+        backgroundImage: landingImg,
+        link: 'https://dariagavrilenko.github.io/landings/',
+        description: `In my free time, I try to repeat the landing page from figma.`
+    }, 
+    notes:{
+        projectName: 'Notes',
+        backgroundImage: `https://www.wikihow.com/images/thumb/1/18/Take-Better-Notes-Step-1-Version-2.jpg/v4-460px-Take-Better-Notes-Step-1-Version-2.jpg.webp`,
+        link: 'https://neon-travesseiro-b73146.netlify.app/',
+        description: `You can create, delete and edit note. You can also create keywords with # and search for them. Notes be kept in local storage`
+    },
+    vacancy:{
+        projectName: 'Vacancy',
+        backgroundImage: 'data:image/jpeg;base64,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3yEnTs3S/le9vrKd6NjPXf5h+8ei4z13+YfvKbe+3Xc6fS4UKjNfMhTzKG/9pMwFd81uqa17Zr0rWvvtmvKl6NjfXf5h+8ei4z13+YfvG3vs3On0t9aqy2y02fyKC39xEy6xsubIb+rdL+V72+sp3ouM9d/mH7x6LjPXf5h+8be+zc6fS30KrNfMjJ5lDf8AtJmJrvmt1TWvbNela199s15UvRsb67/MP3j0bG+u/wAw/eNvfZudPpcK9RltlQv7JQW/uIgVGy5shB17N0v5Xvb6yn+jY313+YfvHo2N9d/mH7xt77RudPpb6NVmPapsniTTPu7JMxeu4NhSYjmDSt56teVL0bG+u/zD949Gxvrv8w/eNvfadzp9LhXqMtsqF/IoLeeYiYOQUvWAUAhiC11GU3BJ05Aypei4z13+YfvNdXZ+Kfvkt7T3/wAmTt77RuZjtHzb+0RXq3XuqMq+PNvf/qd7CqRTQHeFUHzAE5mz9j5SGqEG2oUbr+JnXmrRp6Zhj4mrqpERLKEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA//Z',
+        link: 'https://dariagavrilenko.github.io/vacancy/',
+        description: `Vacancy - application for searching and managing vacancies. Written using the React framework. The API of the Superjob service was used.
+        Job search is performed by keywords. Can be filtered by industry and salary range. The vacancy can be promoted to the "Favorites" category using the button in the form of a star. Selected vacancies are stored in local storage.`
+    }
+}

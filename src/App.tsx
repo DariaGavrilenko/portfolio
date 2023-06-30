@@ -1,22 +1,27 @@
-import './App.css';
-import { Contacts } from './contacts/Contacts';
-import { Footer } from './footer/Footer';
-import { Header } from './header/Header';
-import { Main } from './main/Main';
-import { MyProjects } from './projects/MyProjects';
-import { RemoteWork } from './remoteWork/RemoteWork';
-import { Skills } from './skills/Skills';
+import React, { useState } from 'react';
+
+import { Main } from './components/Main';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { Skills } from './components/Skills';
+import { Contacts } from './components/Contacts';
+import { MyProjects } from './components/MyProjects';
+import { ModalWindow } from './components/Modal';
+
+
+
 
 function App() {
+  const [showModal, setShowModal] = useState(false)
   return (
     <div className="App">
       <Header />
       <Main />
       <Skills />
       <MyProjects />
-      <RemoteWork/>
-      <Contacts/>
-      <Footer/>
+      <Contacts setShowModal={setShowModal} />
+      <Footer />
+      <ModalWindow setShowModal={setShowModal} showModal={showModal} />
     </div>
   );
 }

@@ -1,0 +1,25 @@
+import React from 'react';
+
+import style from './Main.module.css';
+import styleContainer from '../../common/CommonStyle.module.css';
+
+const Main = () => {
+  return (
+    <div className={style.MainContainer}>
+      <div className={`${styleContainer.container} ${style.container}`}>
+        <div className={style.textContainer}>
+          <span>Hello</span>
+          <h1>I am Darya Kot</h1>
+          <span>A frontend developer</span>
+        </div>
+        <div className={style.frame}>
+          <div className={style.photoContainer}>
+            <div className={style.photo} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Main;
